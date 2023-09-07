@@ -1,6 +1,6 @@
 # Tenzie - A Fun Dice Game
 
-![Tenzie Logo](../Tenzie__App.png)
+![Tenzie Logo](img/Tenzie__App.png)
 
 Tenzie is an exciting and addictive dice game that will keep you entertained for hours. Roll the dice, strategize, and aim for the highest score by holding onto the right numbers. Can you achieve the perfect Tenzie?
 
