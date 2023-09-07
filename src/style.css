@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --dark-clr: #0b2434;
+  --light-clr: #f5f5f5;
+  --green-clr: #59e391;
+  --blue-clr: #5035ff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--dark-clr);
+  color: var(--light-clr);
+}
+.main__app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tenzie {
+  background-color: var(--light-clr);
+  height: 50rem;
+  width: 45rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  color: var(--dark-clr);
+}
+
+.dice {
+  color: var(--dark-clr);
+  font-size: 2rem;
+  font-weight: bold;
+  height: 5rem;
+  width: 5rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.green-dice {
+  background-color: var(--green-clr);
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.8rem 2rem;
+}
+
+.btn {
+  padding: 1.2rem 4rem;
+  border-radius: 0.4rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--light-clr);
+  background-color: var(--blue-clr);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  /* box-shadow: 0px 4px 4px 0px rgba(80, 53, 255, 0.158); */
+}
+
+.btn:hover {
+  box-shadow: inset 5px 5px 10px -3px rgba(80, 53, 255, 0.158);
+}
+.btn:focus {
+  outline: none;
+}
+
+.score {
+  margin-bottom: 1.5rem;
+}
+.track__title {
+  margin-bottom: 0.5rem;
+}
+.rolls {
+  color: var(--green-clr);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.counter__tracker {
+  display: flex;
+  gap: 3rem;
+}
